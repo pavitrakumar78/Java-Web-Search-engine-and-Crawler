@@ -93,7 +93,7 @@
            int count = 0;
         %>
         <div class ="newSearch">
-            <img class = "newlogo" src="logo-small.png" alt="Google Logo">
+            <img class = "newlogo" src="images/logo-small.png" alt="Google Logo">
             <form action ="dispRows" method = "POST">
                 <input type="text" name ="keyword" class = "newsearchbox">
                 <input type="submit" value = "Search" class = "test1submit">
