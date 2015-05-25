@@ -12,7 +12,8 @@ This is a simple java project to deomnstrate the uses of various web technologie
 + Move small-logo.png to images
 
 + create another repo for the web crawler (back-end)
-+ 
+ 
+
 ###Sources:
 + http://www.javatpoint.com
 + http://www.w3schools.com
