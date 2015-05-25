@@ -23,7 +23,7 @@
                 </ul>
             </div>
             <div class="container_main">
-                <div class="logo"><img src="logo.png" alt="Google Logo"></div>
+                <div class="logo"><img src="images/logo.png" alt="Google Logo"></div>
                 <form action ="dispRows" method = "POST">
                     <div class="searchbox">
                         <input type="text" name ="keyword">
