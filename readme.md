@@ -8,7 +8,7 @@ This is a simple java project to deomnstrate the uses of various web technologie
 + Any server (I used glassfish 4.1)
 
 ##To do:
-+ Move logo.png to imgaes
++ Move logo.png to images
 + Move small-logo.png to images
 
 + create another repo for the web crawler (back-end)
