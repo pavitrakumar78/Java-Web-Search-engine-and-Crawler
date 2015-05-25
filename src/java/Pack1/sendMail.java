@@ -85,11 +85,11 @@ public class sendMail extends HttpServlet {
         response.sendRedirect("aboutPageAJ.html#page5");
         String host = "smtp.gmail.com";
         String port = "587";
-        String mailFrom = "pk.webcrawler@gmail.com";
-        String password = "pavitrakumar";
+        String mailFrom = "email1@gmail.com";
+        String password = "password";
 
         // outgoing message information
-        String mailTo = "pk.webcrawler@gmail.com";
+        String mailTo = "email1@gmail.com";
         String subject = "Mail From:"+request.getParameter("email_name")+";Email: "+request.getParameter("email");
 
         // message contains HTML markups
