@@ -18,4 +18,4 @@ This is a simple java project to deomnstrate the uses of various web technologie
 + http://www.javatpoint.com
 + http://www.w3schools.com
 + http://www.google.com
-+ -add jquery tut website-
++ http://www.queness.com
