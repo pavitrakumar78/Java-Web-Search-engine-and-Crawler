@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app metadata-complete="true" version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>dispRows</servlet-name>
+        <servlet-class>Pack1.dispRows</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>sendMail</servlet-name>
+        <servlet-class>Pack1.sendMail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dispRows</servlet-name>
+        <url-pattern>/dispRows</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sendMail</servlet-name>
+        <url-pattern>/sendMail</url-pattern>
+    </servlet-mapping>
+</web-app>
