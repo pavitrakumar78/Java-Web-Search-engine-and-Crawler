@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/xmlpage1.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE aboutPagePoints SYSTEM "xmlpage1.dtd">
+
+    <aboutPagePoints>
+    ...
+    </aboutPagePoints>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT aboutPagePoints (pointHeader|subPoint)*>
+<!ATTLIST aboutPagePoints
+    xmlns CDATA #IMPLIED
+    xsi:schemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT pointHeader (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT subPoint (text1)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT text1 (#PCDATA)>

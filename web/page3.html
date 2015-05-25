@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<style>
+ul li.a{
+    padding:8px; font-style:normal; font-family:Arial; font-size:15px; border-left: 1px solid #999;
+}
+b.bb{
+    padding:8px; font-style:normal; font-family:Arial; font-size:20px;
+}
+</style>
+ 
+<html>
+    <head>
+        <title>page3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <br>
+        <ul>
+            <li>
+                <b class ="bb">Java</b>
+                <ul>
+                    <li class="a">We get a set of input URLs which act as a root or a starting point for our crawler.</li>
+                    <li class="a">The links from these initial URLs are extracted using a library called jsoup which is a HTML parser for java. </li>
+                    <li class="a">These "crawled" URLs are added to a queue and each of these URLs again act as a starting point for a crawler and the processes continues.</li>
+                    <li class="a"> Since the Java crawler is multi-threaded, it can crawl at speeds of 10-30 URLs per sec. </li>
+                    <li class="a">These URLs along with their title andother infomation are added to a MySQL database as they are crawled because we need this data to build our search engine.</li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b class ="bb">JSP-Servlet</b>
+                <ul>
+                    <li class="a">The frontend, i.e the JSPs and servlets retrieve data from the database of crawled URLs by getting keyword(s) from the user as input. </li>
+                    <li class="a">The servlet searches the database for relevant URLs and sends it to the JSP to display it on the webpage.</li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+    </body>
+</html>

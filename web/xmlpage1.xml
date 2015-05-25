@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = 'text/xsl' href = 'xslstyle1.xsl'?>
+<!DOCTYPE aboutPagePoints [
+<!ELEMENT aboutPagePoints (pointHeader|subPoint)*>
+<!ELEMENT pointHeader (#PCDATA)>
+<!ELEMENT subPoint (text1)*>
+<!ELEMENT text1 (#PCDATA)>
+]>
+<aboutPagePoints>
+        <pointHeader>Technologies used in JavaWebCrawler Project:</pointHeader>
+        <subPoint>
+            <text1>Java</text1>
+        </subPoint> 
+        <subPoint>
+            <text1>JavaScript</text1>
+        </subPoint>
+        <subPoint>
+            <text1>JQuery</text1>
+        </subPoint>
+        <subPoint>
+            <text1>MySQL,JDBC</text1>
+        </subPoint>
+        <subPoint>
+            <text1>Servlets,JSPs</text1>
+        </subPoint>
+        <subPoint>
+            <text1>AJAX</text1>
+        </subPoint>
+        <subPoint>
+            <text1>HTML,CSS,XML</text1>
+        </subPoint>
+</aboutPagePoints>
